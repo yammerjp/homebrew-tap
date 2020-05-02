@@ -1,14 +1,13 @@
 # basd4g Homebrew Tap
 
-This repository contains a collection of Homebrew (aka, Brew) "formulae" made by basd4g.
+This repository contains a collection of Homebrew (aka, Brew) "Formula" made by basd4g.
 
 ## Install packages
 
 ### Install [pdef](https://github.com/basd4g/pdef)
 
 ```sh
-$ brew tap basd4g/tap
-$ brew install pdef
+$ brew install basd4g/tap/pdef
 ```
 
 ## Add new package to this repository
