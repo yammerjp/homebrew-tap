@@ -1,13 +1,13 @@
-# basd4g Homebrew Tap
+# yammerjp Homebrew Tap
 
-This repository contains a collection of Homebrew (aka, Brew) "Formula" made by basd4g.
+This repository contains a collection of Homebrew (aka, Brew) "Formula" made by yammerjp.
 
 ## Install packages
 
-### Install [pdef](https://github.com/basd4g/pdef)
+### Install [pdef](https://github.com/yammerjp/pdef)
 
 ```sh
-$ brew install basd4g/tap/pdef
+$ brew install yammerjp/tap/pdef
 ```
 
 ## Add new package to this repository
