@@ -5,20 +5,20 @@
 class DbTimeTraveler < Formula
   desc "db-time-traveler rewrites the time of records in a relational database together."
   homepage "https://github.com/yammerjp/db-time-traveler"
-  version "0.0.1"
+  version "0.0.4"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/yammerjp/db-time-traveler/releases/download/v0.0.1/db-time-traveler_0.0.1_Darwin_arm64.tar.gz"
-      sha256 "b1965640ffa80c19a271c2b8136968d6a09e2cbdc7e918215868564372c380bd"
+      url "https://github.com/yammerjp/db-time-traveler/releases/download/v0.0.4/db-time-traveler_0.0.4_Darwin_arm64.tar.gz"
+      sha256 "aaf22dbc10632162643cbfffddd291efbb8b5064bf3643ce12d881f4288069b1"
 
       def install
         bin.install "db-time-traveler"
       end
     end
     if Hardware::CPU.intel?
-      url "https://github.com/yammerjp/db-time-traveler/releases/download/v0.0.1/db-time-traveler_0.0.1_Darwin_x86_64.tar.gz"
-      sha256 "dc3e33cc9359bbcbeeda5e356b212cfd44f4b775b320bcfd741638b3d2dba00f"
+      url "https://github.com/yammerjp/db-time-traveler/releases/download/v0.0.4/db-time-traveler_0.0.4_Darwin_x86_64.tar.gz"
+      sha256 "87109028642ba250d769cb48cd114057a71a15f980e8b31efa260d29f8508c37"
 
       def install
         bin.install "db-time-traveler"
@@ -28,16 +28,16 @@ class DbTimeTraveler < Formula
 
   on_linux do
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/yammerjp/db-time-traveler/releases/download/v0.0.1/db-time-traveler_0.0.1_Linux_arm64.tar.gz"
-      sha256 "47abc28a232685326f754296cf7462ec63256a5d8fc5c1b32d632a356e839496"
+      url "https://github.com/yammerjp/db-time-traveler/releases/download/v0.0.4/db-time-traveler_0.0.4_Linux_arm64.tar.gz"
+      sha256 "a5043bcbd87d93f341a51e65320e98db627c95a1b3ad6a967d231087b1644acf"
 
       def install
         bin.install "db-time-traveler"
       end
     end
     if Hardware::CPU.intel?
-      url "https://github.com/yammerjp/db-time-traveler/releases/download/v0.0.1/db-time-traveler_0.0.1_Linux_x86_64.tar.gz"
-      sha256 "13f4a99ab465bc1274841a0f6cbe539db3cc2c09fc5d78a974398765950bf986"
+      url "https://github.com/yammerjp/db-time-traveler/releases/download/v0.0.4/db-time-traveler_0.0.4_Linux_x86_64.tar.gz"
+      sha256 "115482f75128743333891ccaf498cc694c45819e5208f18c5fafc8cb1822c4b5"
 
       def install
         bin.install "db-time-traveler"
